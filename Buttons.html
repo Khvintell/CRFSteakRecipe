@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    
+    
+</head>
+
+<body> 
+    <div class="container">
+
+    <div id="lang">
+        <h1>გთხოვთ აირჩიოთ ენა </h1>
+    <h1>Please choose a Languange</h1>
+        
+    </div>
+    
+    <button id="GeoBtn">ქართული</button>
+    <button id="EngBtn">English</button>
+
+</div>
+
+    <style>
+    body{
+    background-color: #49111c;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #49111c;
+
+}
+
+        #EngBtn {
+    border-radius: 30%; /* Apply 50% border-radius to make the button circular */
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    background-color: #5e503f; /* Set background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    font-size: larger;
+    
+}
+        #GeoBtn {
+    border-radius: 30%; /* Apply 50% border-radius to make the button circular */
+    padding: 10px 20px; /* Add padding to the button for better appearance */
+    background-color: #5e503f; /* Set background color */
+    color: white; /* Set text color to white */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    font-size: large;
+            
+        }
+        #lang{
+            color: white;
+
+        }
+        #text{
+            padding:initial
+
+        }
+    </style>
+
+    <script>
+
+document.getElementById('EngBtn').addEventListener('click', function() {
+            window.location.href = 'English.html';
+        });
+
+        document.getElementById('GeoBtn').addEventListener('click', function() {
+            window.location.href ='prime.html';
+        });
+    </script>
+</body>
+</html>

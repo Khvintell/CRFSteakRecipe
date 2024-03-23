@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+  font-family:monospace;
+  text-align: center;
+  background-image: url("materials/backround11black.jpg"); 
+  background-attachment:scroll;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+  font-size: 20px;
+
+
+}
+
+#steak-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;    /* Maintain the aspect ratio */
+    max-height: 300px; /* Set a maximum height */
+
+}
+#stylish-header {
+    font-size: 36px; /* Set the font size to make it larger */
+    color: #c01f1f; /* Set the color to a different color (e.g., orange) */
+    text-align: center; /* Optional: Center the text */
+
+    
+}
+footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 ;
+    position:absolute;
+    bottom:auto;
+    width: 100%;
+}
+#download-link {
+    color: rgb(255, 255, 255); /* Changes the color of the text to blue */
+    text-decoration: underline; /* Adds an underline to the text */
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px 10px; /* Optional: Adds padding inside the frame */
+    display: inline-block; /* Ensures the link respects block properties like padding and border */
+    text-decoration: wavy;
+    
+  }
+  
